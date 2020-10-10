@@ -3,10 +3,9 @@ from controller.modules.home import home_blu
 from controller.utils.camera import VideoCamera
 from smbus2 import SMBus
 from mlx90614 import MLX90614
-
+import os
 video_camera = None
 global_frame = None
-
 
 # 主页
 @home_blu.route('/')
@@ -15,9 +14,14 @@ def index():
     username = session.get("username")
     # 获取传感器温度
     bus = SMBus(1)
+    path = '~/Desktop/AI-MasKeeper/beginMeasure.mp3'
+    os.system('mplayer ' + path)
     sensor = MLX90614(bus, address=0x5A)
     ambient = round(float(sensor.get_ambient()), 2)
     temp = round(float(sensor.get_object_1()), 2)
+    # ambient = 30.0
+    # temp = 30.0
+
     tempInfo = {
         'ambient': ambient,
         'temp': temp

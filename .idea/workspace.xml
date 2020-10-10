@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57b2c923-5e39-481b-98a0-34be5df23d73" name="默认" comment="添加测温">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/static/beginMeasure.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/modules/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/modules/home/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +27,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
-  </component>
+  <component name="ProjectId" id="1ififQaAWZrZMG2MHO0IculcWnY" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -45,12 +45,18 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/controller/modules/home" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controller/modules/home" />
+      <recent name="$PROJECT_DIR$/controller/static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controller/modules/home" />
+      <recent name="$PROJECT_DIR$/controller/modules/user" />
       <recent name="E:\AI-Maskeeper-USST\controller\templates" />
     </key>
   </component>
@@ -201,6 +207,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593314283611</updated>
+      <workItem from="1602305154513" duration="2001000" />
     </task>
     <task id="LOCAL-00001" summary="添加测温">
       <created>1602300128352</created>
@@ -221,31 +228,46 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加测温" />
     <option name="LAST_COMMIT_MESSAGE" value="添加测温" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="81" key="#Deployment" timestamp="1602303677664">
+    <state x="320" y="81" key="#Deployment" timestamp="1602306162627">
       <screen x="0" y="25" width="1440" height="788" />
     </state>
-    <state x="320" y="81" key="#Deployment/0.25.1440.788@0.25.1440.788" timestamp="1602303677664" />
+    <state x="320" y="81" key="#Deployment/0.25.1440.788@0.25.1440.788" timestamp="1602306162627" />
     <state x="302" y="109" key="#Options" timestamp="1602303503990">
       <screen x="0" y="25" width="1440" height="788" />
     </state>
     <state x="302" y="109" key="#Options/0.25.1440.788@0.25.1440.788" timestamp="1602303503990" />
-    <state x="304" y="68" key="#SSH_Configurations" timestamp="1602303445864">
+    <state x="304" y="68" key="#SSH_Configurations" timestamp="1602306161783">
       <screen x="0" y="25" width="1440" height="788" />
     </state>
-    <state x="304" y="68" key="#SSH_Configurations/0.25.1440.788@0.25.1440.788" timestamp="1602303445864" />
+    <state x="304" y="68" key="#SSH_Configurations/0.25.1440.788@0.25.1440.788" timestamp="1602306161783" />
+    <state x="324" y="225" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602306650930">
+      <screen x="0" y="25" width="1440" height="788" />
+    </state>
+    <state x="324" y="225" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.788@0.25.1440.788" timestamp="1602306650930" />
     <state x="245" y="25" key="CommitChangelistDialog2" timestamp="1602300168152">
       <screen x="0" y="25" width="1440" height="788" />
     </state>
     <state x="245" y="25" key="CommitChangelistDialog2/0.25.1440.788@0.25.1440.788" timestamp="1602300168152" />
+    <state x="401" y="183" width="638" height="472" key="find.popup" timestamp="1602305989202">
+      <screen x="0" y="25" width="1440" height="788" />
+    </state>
+    <state x="401" y="183" width="638" height="472" key="find.popup/0.25.1440.788@0.25.1440.788" timestamp="1602305989202" />
     <state x="609" y="153" key="ftp.server.browser" timestamp="1602303672382">
       <screen x="0" y="25" width="1440" height="788" />
     </state>
     <state x="609" y="153" key="ftp.server.browser/0.25.1440.788@0.25.1440.788" timestamp="1602303672382" />
+    <state x="590" y="328" key="publish.login" timestamp="1602306151067">
+      <screen x="0" y="25" width="1440" height="788" />
+    </state>
+    <state x="590" y="328" key="publish.login/0.25.1440.788@0.25.1440.788" timestamp="1602306151067" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
