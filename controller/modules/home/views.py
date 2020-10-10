@@ -16,8 +16,8 @@ def index():
     # 获取传感器温度
     bus = SMBus(1)
     sensor = MLX90614(bus, address=0x5A)
-    ambient = round(float(sensor.get_ambient(), 1), 2)
-    temp = round(float(sensor.get_object_1(), 1), 2)
+    ambient = round(float(sensor.get_ambient()), 2)
+    temp = round(float(sensor.get_object_1()), 2)
     tempInfo = {
         'ambient': ambient,
         'temp': temp
