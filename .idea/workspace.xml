@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57b2c923-5e39-481b-98a0-34be5df23d73" name="默认" comment="默认">
-      <change beforePath="$PROJECT_DIR$/.idea/facemask_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/facemask_web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="57b2c923-5e39-481b-98a0-34be5df23d73" name="默认" comment="添加测温">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/modules/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/modules/home/views.py" afterDir="false" />
     </list>
@@ -24,6 +22,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -172,8 +173,8 @@
     </configuration>
     <list>
       <item itemvalue="Python.facemask_web" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.play" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
@@ -193,6 +194,14 @@
       <option name="presentableId" value="Default" />
       <updated>1593314283611</updated>
     </task>
+    <task id="LOCAL-00001" summary="添加测温">
+      <created>1602300128352</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602300128352</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -204,11 +213,15 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加测温" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加测温" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="245" y="25" key="CommitChangelistDialog2" timestamp="1602300070169">
+    <state x="245" y="25" key="CommitChangelistDialog2" timestamp="1602300168152">
       <screen x="0" y="25" width="1440" height="788" />
     </state>
-    <state x="245" y="25" key="CommitChangelistDialog2/0.25.1440.788@0.25.1440.788" timestamp="1602300070169" />
+    <state x="245" y="25" key="CommitChangelistDialog2/0.25.1440.788@0.25.1440.788" timestamp="1602300168152" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

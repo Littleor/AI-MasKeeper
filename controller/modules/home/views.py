@@ -3,8 +3,10 @@ from controller.modules.home import home_blu
 from controller.utils.camera import VideoCamera
 from smbus2 import SMBus
 from mlx90614 import MLX90614
+
 video_camera = None
 global_frame = None
+
 
 # 主页
 @home_blu.route('/')
@@ -14,17 +16,17 @@ def index():
     # 获取传感器温度
     bus = SMBus(1)
     sensor = MLX90614(bus, address=0x5A)
-    ambient = (sensor.get_ambient(),1)
-    temp =  (sensor.get_object_1(),1)
+    ambient = round((sensor.get_ambient(), 1), 2)
+    temp = round((sensor.get_object_1(), 1), 2)
     tempInfo = {
-        'ambient' : ambient,
-        'temp'    : temp
+        'ambient': ambient,
+        'temp': temp
     }
-    #bus.close()
+    bus.close()
 
     if not username:
         return redirect(url_for("user.login"))
-    return render_template("index.html",**tempInfo)
+    return render_template("index.html", **tempInfo)
 
 
 # 获取视频流
@@ -56,5 +58,3 @@ def video_viewer():
         return redirect(url_for("user.login"))
     return Response(video_stream(),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
-
-
