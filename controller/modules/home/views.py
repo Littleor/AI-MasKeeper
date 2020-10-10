@@ -1,7 +1,7 @@
 from flask import session, render_template, redirect, url_for, Response, make_response
 from controller.modules.home import home_blu
 from controller.utils.camera import VideoCamera
-#from smbus2 import SMBus
+from smbus2 import SMBus
 from mlx90614 import MLX90614
 video_camera = None
 global_frame = None
@@ -12,10 +12,10 @@ def index():
     # 模板渲染
     username = session.get("username")
     # 获取传感器温度
-    #bus = SMBus(1)
-    #sensor = MLX90614(bus, address=0x5A)
-    ambient =round(28.88,1)#(sensor.get_ambient(),1)
-    temp =round(36.55,1)#(sensor.get_object_1(),1)
+    bus = SMBus(1)
+    sensor = MLX90614(bus, address=0x5A)
+    ambient = (sensor.get_ambient(),1)
+    temp =  (sensor.get_object_1(),1)
     tempInfo = {
         'ambient' : ambient,
         'temp'    : temp

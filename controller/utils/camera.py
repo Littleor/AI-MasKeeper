@@ -32,13 +32,14 @@ colors = ((0, 255, 0), (255, 0 , 0))
 flag_p = 1
 
 def play_sound():
-    file = r'..\utils\test.mp3'  # 注意文件路径,设置自己所需播放的MP3文件
-    pygame.mixer.init()
-    print("播放音乐1")
-    track = pygame.mixer.music.load(file)
-    pygame.mixer.music.play()
-    time.sleep(10)
-    pygame.mixer.music.stop()
+    return
+    # file = r'..\utils\test.mp3'  # 注意文件路径,设置自己所需播放的MP3文件
+    # pygame.mixer.init()
+    # print("播放音乐1")
+    # track = pygame.mixer.music.load(file)
+    # pygame.mixer.music.play()
+    # time.sleep(10)
+    # pygame.mixer.music.stop()
 
 def puttext_chinese(img, text, point, color):
     pilimg = Image.fromarray(img)
