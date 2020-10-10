@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57b2c923-5e39-481b-98a0-34be5df23d73" name="默认" comment="添加测温">
-      <change beforePath="$PROJECT_DIR$/controller/modules/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/modules/home/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +38,16 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -217,10 +226,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加测温" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="81" key="#Deployment" timestamp="1602303677664">
+      <screen x="0" y="25" width="1440" height="788" />
+    </state>
+    <state x="320" y="81" key="#Deployment/0.25.1440.788@0.25.1440.788" timestamp="1602303677664" />
+    <state x="302" y="109" key="#Options" timestamp="1602303503990">
+      <screen x="0" y="25" width="1440" height="788" />
+    </state>
+    <state x="302" y="109" key="#Options/0.25.1440.788@0.25.1440.788" timestamp="1602303503990" />
+    <state x="304" y="68" key="#SSH_Configurations" timestamp="1602303445864">
+      <screen x="0" y="25" width="1440" height="788" />
+    </state>
+    <state x="304" y="68" key="#SSH_Configurations/0.25.1440.788@0.25.1440.788" timestamp="1602303445864" />
     <state x="245" y="25" key="CommitChangelistDialog2" timestamp="1602300168152">
       <screen x="0" y="25" width="1440" height="788" />
     </state>
     <state x="245" y="25" key="CommitChangelistDialog2/0.25.1440.788@0.25.1440.788" timestamp="1602300168152" />
+    <state x="609" y="153" key="ftp.server.browser" timestamp="1602303672382">
+      <screen x="0" y="25" width="1440" height="788" />
+    </state>
+    <state x="609" y="153" key="ftp.server.browser/0.25.1440.788@0.25.1440.788" timestamp="1602303672382" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
