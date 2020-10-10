@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57b2c923-5e39-481b-98a0-34be5df23d73" name="默认" comment="添加测温">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/modules/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/modules/home/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
